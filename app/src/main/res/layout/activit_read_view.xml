@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:id="@+id/rv_nfc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/rly_title"
+        layout="@layout/tabar_layout_view" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nfcone"
+       />
+    <TextView
+        android:id="@+id/tv_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/color_999999"
+         />
+
+
+     <EditText
+         android:textSize="22sp"
+         android:textColor="@color/color_999999"
+         android:id="@+id/ev_input"
+         android:visibility="gone"
+         android:background="@color/color_transparent"
+         android:hint="请输入保存数据后点击保存"
+         android:layout_marginStart="15dp"
+         android:layout_marginEnd="15dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/color_999999"
+        />
+
+
+
+</LinearLayout>
+</layout>

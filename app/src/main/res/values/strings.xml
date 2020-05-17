@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestNFCApp</string>
+
+
+    <string name="text_name">开始读取</string>
+
+
+
+    <string name="wirte_name">写入数据</string>
+
+
+
+    <string name="text">请NFC靠近手机背面</string>
+
+
+</resources>
